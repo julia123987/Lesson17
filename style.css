@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,30 +18,30 @@ nav{
    border-bottom: 2px solid rgba(192, 192, 192, 0.39);
    align-items: center;
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
 }
-ul li{
+nav ul li{
     margin-left: 35px;
     margin-right: 35px;
     list-style-type:none;
     font-style: normal; 
 }
-li a{
+nav li a{
     text-decoration:none;
     color: #1D253C;
 }
-li a:active{
+nav li a:active{
     color: teal;
 }
-.list1{
+nav .list1{
     display: flex;
 }
-.list2 li{
+nav .list2 li{
     padding: 10px 20px;
 }
-.price{
+nav .list2 .price{
     border: 2px solid rgba(192, 192, 192, 0.39);
     font-size: 14px;
     font-weight: 600;
@@ -449,6 +450,264 @@ h1{
     font-size: 17px;
     line-height: 28px;
 }
+.section7{
+    height: 75vh;
+    padding: 30px;
+}
+.block14{
+    height: 75vh;
+    display: grid;
+    grid-template-areas: 
+    'area1 area2 area3 area4';
+    justify-content: space-evenly;
+    align-items: center;
+}
+.block14 > div{
+    padding: 20px;
+}
+.block14 a{
+    text-decoration: none;
+}
+.card7{
+    grid-area: area1;
+    width: 260px;
+    height: 323px;
+    background-color: rgba(169, 216, 255, 0.3);
+}
+.card7 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    color: #7CAFDD;
+}
+.card7 a p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7CAFDD;
+}
+.card8{
+    grid-area: area2;
+    width: 260px;
+    height: 323px;
+    background-color: rgba(255, 174, 104, 0.3);
+}
+.card8 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 42px;
+    color: #E79751;
+}
+.card8 a p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E79751;
+}
+.card9{
+    grid-area: area3;
+    width: 260px;
+    height: 323px;
+    background-color: rgba(250, 82, 64, 0.3);
+}
+.card9 h4{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FA5240;
+}
+.card9 a p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FA5240;
+}
+.card10{
+    grid-area: area4;
+    width: 260px;
+    height: 323px;
+    background-color: rgba(18, 111, 133, 0.3);;
+}
+.card10 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 42px;
+    color: #126F85;
+}
+.card10 a p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #126F85;
+}
+.card7 p,
+.card8 p,
+.card9 p,
+.card10 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+}
+.card7 div.but,
+.card8 div.but,
+.card9 div.but,
+.card10 div.but{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.card7 div.but img,
+.card8 div.but img,
+.card9 div.but img,
+.card10 div.but img{
+    padding-left: 15px;
+}
+.card7,
+.card8,
+.card9,
+.card10{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.section8{
+    height: 50vh;
+    background-color:  #E5F3FE;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.section8 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section8 .foto1,
+.section8 .foto2{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+}
+.section8 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section8 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #676562;
+}
+.section8 .but1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+}
+.section9{
+    height: 30vh;
+    padding: 50px 100px 50px 100px;
+}
+.block15{
+    display: flex; 
+}
+.block15 .part1{
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.block15 .part1 .text2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+}
+.inp input[type=text]{
+    padding: 16px;
+    border: 1px solid silver;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.but2{
+    padding: 16px;
+    border: 1px solid #126F85;
+    background-color: #126F85;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+.but2 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans';
+}
+.but2 img{
+    padding-left: 5px;
+}
+.block15 .part1 .links{
+    margin-top: 30px;
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+.block15 .part2{
+    width: 60%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.block15 .part2 .info1{
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 39px;
+   text-transform: uppercase;
+   color: #1D253C;
+}
+.block15 .part2 ul{
+    list-style-type: none;
+}
+.block15 .part2 ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 39px;
+    color: #5A6482;
+}
+.section10{
+    height: 10vh;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section10 button{
+    border: 2px solid rgba(29, 37, 60, 0.2);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 17px 10px 17px;
+}
+.section10 button a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D253C;
+    text-decoration: none;
+}
+
 
 
     
