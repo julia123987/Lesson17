@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./2style.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="./style.css" media="screen and (min-width: 993px)">
 </head>
 <body>
     <header>
         <nav>
-            <div class="list1">
-                <div class="logo"><img src="./Frame.png" alt="logo" height="35"></div>
+            <div class="navigation">
+                <div class="list1">
+                <div class="logo"><a href="#"><img src="./Frame.png" alt="logo" height="35"></a></div>
                 <ul>
                 <li><a href="#">Life insurance</a></li>
                 <li><a href="#">Why bello</a></li>
@@ -24,7 +26,25 @@
                 <li class="price"><a href="#">Get my price</a></li>
                 </ul>
             </div>
+            </div>
+            <div class="burger-menu">
+                <div class="logo"><a href="#"><img src="./Frame.png" alt="logo" height="35"></a></div>
+                <div>
+                <label class="menu-btn" for="menu-toggle">
+                  <span><img src="./Shape.png" alt="shape"></span>
+                </label><input id="menu-toggle" type="checkbox"/>
+                <ul class="menubox">
+                        <li><a class="menu-item" href="#">Life insurance</a></li>
+                        <li><a class="menu-item" href="#">Why bello</a></li>
+                        <li><a class="menu-item" href="#">Help</a></li>
+                        <li><a class="menu-item" href="#">Log in</a></li>
+                        <li><a class="menu-item" href="#">Get my price</a></li>
+                </ul>
+                </div>
+            </div>
         </nav>
+        
+          </div>
     </header>
     <main>
         <section class="section1">
@@ -41,7 +61,7 @@
         <section class="section2">
             <div class="sect2">
             <div class="block3">
-                  <img src="./coverage 1.png" alt="coverage">
+                  <div><img src="./coverage 1.png" alt="coverage"></div>
                   <p class="text2"><span style="color:#F46752;">*</span>Data for illustrative purposes</p>  
             </div>
             <div class="block4">
@@ -92,8 +112,10 @@
                 </div>
             </div>
         </section>
-        <section class="section5">
+        <section class="section4dog">
             <div class="dog"><img src="./Rectangle (7).png" alt=""></div>
+        </section>
+        <section class="section5">
             <div class="block9">
                 <h1 class="text1">How it works</h1>
                 <h1>Affordable life insurance in minutes</h1>
@@ -228,7 +250,6 @@
            <p>© 2020 Bello insurance Services LLC. All right reserved.</p>
             <button><a href="#">Get my price</a></button>
         </section>
-        
     </footer>
 </body>
 </html>
