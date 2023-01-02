@@ -11,10 +11,10 @@ body{
     margin-right: 35px;
 }
 .navigation{
-    /* display: none; */
-    display: flex;
+    display: none;
+    /* display: flex; */
     justify-content: space-between;
-    padding: 0px 40px;
+    padding: 0px 60px;
     height: 105px;
     border-bottom: 2px solid rgba(192, 192, 192, 0.39);
     align-items: center;
@@ -24,8 +24,8 @@ nav ul{
     align-items: center;
 }
 nav ul li{
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
     list-style-type:none;
     font-style: normal; 
 }
@@ -40,11 +40,11 @@ nav .list1{
     display: flex;
 }
 nav .list2 li{
-    padding: 8px 16px;
+    padding: 10px 20px;
 }
 nav .list2 .price{
     border: 2px solid rgba(192, 192, 192, 0.39);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 5px;
     text-transform: uppercase;
@@ -52,28 +52,30 @@ nav .list2 .price{
 .text1{
     color: #F46752 !important;
     text-transform: uppercase !important;
-    font-size: 17px !important;
+    font-size: 85% !important;
+    padding-top: 40px;
+    padding-bottom: 8px;
 }
 .text2{
     color: #5A6482;
     font-weight: 300;
     font-size: 17px;
-    line-height: 26px;
+    line-height: 25px;
     font-style: normal;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 h1{
     color: #1D253C;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 40px;
     font-style: normal;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .burger-menu{
-    visibility: hidden;
+    /* visibility: hidden; */
     position: relative;
     z-index: 2;
     display: flex;
@@ -168,7 +170,6 @@ h1{
     visibility: visible;
     left: 0;
   }
-
 .burger-menu span{
     width: 180px;
     height: 30px;
@@ -230,9 +231,8 @@ h1{
     display: flex;
     justify-content: center;
 }
-
 .section2{
-    height: 135vh;
+    height: 125vh;
     margin-top: 20px;
     background-color: #F9F5F2;
     /* padding: 20px; */
@@ -248,12 +248,22 @@ h1{
 .block3 img{
     background-color: white;
     padding: 40px;
+    width: 60vw;
 }
 .block3{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
+}
+.block3 .text2{
+    color: #5A6482;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .block12{
     width: 50%;
@@ -264,15 +274,16 @@ h1{
 .block4,
 .block5,
 .block13{
-    width: 50%;
+    width: 75%;
     /* font-size: 130%; */
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     top: -50px;
+    text-align: center;
 }
 .block4 .but{
     width: 200px;
@@ -286,9 +297,9 @@ h1{
     color: teal;
 }
 .section3{
-    height: 160vh;
+    height: 120vh;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     /* padding: 30px; */
 }
 .block5 .but{
@@ -303,16 +314,20 @@ h1{
     color: teal;
 }
 .block6{
-    /* width: 50%; */
+    /* width: 350px; */
     text-align: start;
     position: relative;
-    padding: 50px;
+    padding-top: 50px;
 }
 .landing1{
     position: relative;
     top: -90px; 
-    left: -50px;
+    left: -18px;
     z-index: 1;
+    width: 100px;
+}
+.landing1 img{
+    width: 25vw;
 }
 .rectangle1{
     display: flex;
@@ -320,33 +335,37 @@ h1{
     position: relative;
     top: -130px;
     /* left: 30px; */
-    z-index: 2;
+    z-index: 2; 
+}
+.rectangle1 img{
+    width: 75vw;
+    text-align: center;
 }
 .text3{
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 57px;
-    width: 350px;
+    height: 43px;
+    width: 250px;
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
     position: relative;
     top: -160px;
-    left: -40px; 
+    left: -20px; 
     z-index: 3;
 }
 .text3 p{
     color: #1D253C;
     font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 13px;
     line-height: 28px;
 }
 .section4{
-    height: 75vh;
-    margin-top: 0px;
+    height: 163vh;
+    margin-top: -50px;
     padding: 30px;
     background-color: #F8F8F8;
 }
@@ -359,68 +378,79 @@ h1{
 }
 .umb{
     height: 180px;
-    margin-top: -180px;
-    z-index: 99;
+    margin-top: -100px;
+    z-index: 5;
+}
+.umb img{
+    width: 80vw;
 }
 .block7 .text,
 .block9 .text{
     width: 55%;
     text-align: center;
 }
+.block7 h1{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    z-index: 6;
+}
 .block8{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 .card1,
 .card2,
 .card3{
-    width: 17%;
-    height: 275px;
+    width: 90%;
+    height: 160px;
     background-color: white;
     padding: 30px;
     text-align: center;
+    margin: 10px;
 }
 .card1 h4,
 .card2 h4,
 .card3 h4{
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
-    line-height: 26px;
+    line-height: 17px;
     color:#1D253C;
     margin-bottom: 10px;
 }
 .card1 img{
-    margin-bottom: 28%;
-    width: 80%;
+    margin-bottom: 4%;
+    width: 21%;
 }
 .card2 img{
     margin-bottom: 0%;
-    width: 80%;
+    width: 15%;
     height: 50%;
 }
 .card3 img{
-    margin-bottom: 10%;
-    width: 100%;
+    margin-bottom: 2%;
+    width: 40%;
 }
 .card1 p{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: #5A6482;
 }
 .card2 p{
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
     color: #5A6482; 
 }
 .card3 p{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: #5A6482;
 }
@@ -428,7 +458,7 @@ h1{
     color: #1D253C;
 }
 .section4dog{
-    height: 25vh;
+    height: 17vh;
     background-color: #F8F8F8;
 }
 .dog{
@@ -437,16 +467,19 @@ h1{
     position: sticky;
     left: 95vw;
     /* left: 90.5%; */
-    top: -40px;
+    /* top: -20px; */
+}
+.dog img{
+    width: 140px;
 }
 .section5{
-    height: 100vh;
+    height: 160vh;
     padding: 30px;
     padding-top: 0;
     background-color:#363839;
 }
 .block9{
-    margin-top: -3%;
+    margin-top: 0%;
 }
 .block9 .text p{
     color: #ACB4BF;
@@ -465,6 +498,7 @@ h1{
     width: 100%;
 }
 .path{
+    display: none;
     width: 100%;
     position: relative;
     display: flex;
@@ -476,28 +510,33 @@ h1{
     text-align: center; 
 }
 .path .img1{
-    position: relative;
-    top: -15px;
-    left: 79px;
-    width: 56%;
+    display: none;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    width: 65%;
+    transform: rotate(90deg);
 }
 .path .img2{
+    display: none;
     position: relative;
-    left: 90px;
-    top: -40px;
-    width: 18%;
+    left: -130px;
+    top: 520px;
+    width: 47%;
+    transform: rotate(90deg);
 }
 .cards{
     position: relative;
-    top: -150px;
+    top: 0px;
     z-index: 2;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .card4,
 .card5,
 .card6{
-    width: 20%;
+    width: 70%;
     height: 100px;
     padding: 50px;
     text-align: center;
@@ -526,8 +565,8 @@ h1{
 .card5 .disk,
 .card6 .disk{
     position: relative;
-    left: 10%;
-    top: -3%;
+    left: 5%;
+    top: -6%;
     z-index: 1;
 }
 .card4 .numb,
@@ -539,12 +578,12 @@ h1{
 }
 .card4 .rain{
     position: relative;
-    top: -140%;
+    top: -100%;
     left: -20%;
 }
 .card5 .rain{
     position: relative;
-    top: -90%;
+    top: -40%;
     left: -40%;
 }
 .block11{
@@ -563,18 +602,22 @@ h1{
     align-items: center;
     font-family: 'Work Sans';
     padding: 20px; 
+    margin-top: 40px;
 }
 .but1 a{
     text-decoration: none;
     color: white;
 }
 .section6{
-    height: 150vh;
+    height: 140vh;
     background-color: #F9F5F2;
     padding: 30px;
 }
 .block13{
-    margin-top: -140px;
+    margin-top: -150px;
+}
+.block12{
+    margin-top: 90px;
 }
 .block13 h1{
     text-align: center;
@@ -592,63 +635,73 @@ h1{
 }
 .landing2{
     position: relative;
-    top: -30px;
-    left: -140px; 
+    top: -100px; 
+    left: -80px;
     z-index: 1;
+    width: 100px;
+}
+.landing2 img{
+    width: 25vw;
 }
 .rectangle2{
     display: flex;
     justify-content: center;
     position: relative;
-    z-index: 2;
-    top: -100px;
-    /* left: -50px; */
+    top: -140px;
+    /* left: 30px; */
+    z-index: 2; 
+}
+.rectangle2 img{
+    width: 75vw;
+    text-align: center;
 }
 .text4{
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 57px;
-    width: 350px;
+    height: 50px;
+    width: 250px;
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
     position: relative;
-    top: -130px;
+    top: -160px;
     left: -20px; 
     z-index: 3;
 }
 .text4 p{
     color: #1D253C;
     font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
+    font-weight: 200;
+    font-size: 13px;
     line-height: 28px;
 }
 .section7{
-    height: 105vh;
-    padding: 30px;
+    height: 185vh;
+    padding-top: 30px;
 }
 .block14{
-    height: 105vh;
+    height: 185vh;
     display: grid;
     grid-template-areas: 
-    'area1 area2'
-    'area3 area4';
-    grid-row-gap: 30px;
+    'area1'
+    'area2'
+    'area3'
+    'area4';
+    grid-row-gap: 10px;
     justify-content: space-evenly;
     align-items: center;
 }
 .block14 > div{
-    padding: 19px;
+    padding: 10px;
 }
 .block14 a{
     text-decoration: none;
 }
 .card7{
     grid-area: area1;
-    width: 260px;
+    width: 280px;
     height: 323px;
     background-color: rgba(169, 216, 255, 0.3);
 }
@@ -667,7 +720,7 @@ h1{
 }
 .card8{
     grid-area: area2;
-    width: 260px;
+    width: 280px;
     height: 323px;
     background-color: rgba(255, 174, 104, 0.3);
 }
@@ -686,7 +739,7 @@ h1{
 }
 .card9{
     grid-area: area3;
-    width: 260px;
+    width: 280px;
     height: 323px;
     background-color: rgba(250, 82, 64, 0.3);
 }
@@ -704,7 +757,7 @@ h1{
 }
 .card10{
     grid-area: area4;
-    width: 260px;
+    width: 280px;
     height: 323px;
     background-color: rgba(18, 111, 133, 0.3);;
 }
@@ -754,11 +807,14 @@ h1{
    justify-content: space-around;
 }
 .section8{
-    height: 50vh;
+    height: 100vh;
     background-color: #E5F3FE;
     margin-top: 60px;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: 
+    'foto1 foto2'
+    'info info';
+    justify-content: center;
     align-items: flex-end;
 }
 .section8 .info{
@@ -768,21 +824,36 @@ h1{
     justify-content: center;
     position: relative;
     z-index: 2;
+    grid-area: info;
+    width: 95vw;
 }
 .section8 .foto1{
-    width: 250px;
-    height: 450px;
+    /* width: 80px; */
+    height: 30px;
     display: flex;
+    justify-content: flex-start;
     align-items: flex-end;
     position: relative;
-    left: -95px;
+    left: 0px;
+    grid-area: foto1;
+}
+.section8 .foto1 img{
+    width: 300px;
+    height: 50vh;
 }
 .section8 .foto2{
-    width: 250px;
+    /* width: 100px; */
     height: 450px;
     display: flex;
     align-items: flex-end;
+    justify-content: end;
     position: relative;
+    /* left: 100px; */
+    grid-area: foto1;
+}
+.section8 .foto2 img{
+    height: 20vh;
+    width: 48px;
 }
 .section8 h1{
     margin-top: 10px;
@@ -795,6 +866,7 @@ h1{
     font-size: 17px;
     line-height: 27px;
     color: #676562;
+    text-align: center;
 }
 .section8 .but1{
     margin-top: 50px;
@@ -804,14 +876,15 @@ footer{
     font-family: 'Roboto', sans-serif;
 }
 .section9{
-    height: 40vh;
-    padding: 40px 60px 40px 60px;
+    height: 70vh;
+    padding: 20px 30px 20px 30px;
 }
 .block15{
     display: flex; 
+    flex-direction: column;
 }
 .block15 .part1{
-    width: 30%;
+    width: 80%;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -845,16 +918,17 @@ footer{
 }
 .block15 .part1 .links{
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 180px;
     display: flex;
     justify-content: space-between;
 }
 .block15 .part2{
-    width: 70%;
+    width: 80%;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .block15 .part2 .info1{
    font-style: normal;
@@ -883,23 +957,23 @@ footer{
     align-items: center;
 }
 .section10 button{
-    border: 2px solid rgba(29, 37, 60, 0.2);
+    border: 1px solid rgba(29, 37, 60, 0.2);
     background-color: transparent;
     border-radius: 5px;
-    padding: 5px 16px 5px 16px;
+    padding: 3px 10px 3px 10px;
 }
 .section10 button a{
     font-style: normal;
-    font-weight: 200;
-    font-size: 10px;
-    line-height: 27px;
+    font-weight: 100;
+    font-size: 7px;
+    line-height: 20px;
     text-transform: uppercase;
     color: #1D253C;
     text-decoration: none;
 }
 .section10 p{
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 27px;
+    font-weight: 100;
+    font-size: 9px;
+    line-height: 20px;
     color: #1D253C;
 }
